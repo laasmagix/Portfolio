@@ -371,3 +371,36 @@ body {
   }
 }
 /* ================================================================================ */
+/* ======================================== Footer  ======================================== */
+.footer {
+}
+.footer__container {
+  min-height: 200px;
+}
+.footer__icons {
+  padding-top: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.footer__icons:not(:last-child) {
+  margin: 0px 0px 30px 0px;
+}
+.footer__icon {
+  flex: 0 0 38px;
+}
+.footer__icon img {
+  max-width: 100%;
+}
+.footer__copyright {
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.5px;
+}
+/* ================================================================================ */
